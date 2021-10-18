@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const set = require('lodash.set')
+const PORT = process.env.PORT || 3000;
 
 const apps = [
     { id: '1', name: 'my-app-001' },
@@ -147,4 +148,4 @@ app.get('/apps', (req, res) => {
     res.json(getResult())
 })
 
-app.listen(3000)
+app.listen(PORT)
