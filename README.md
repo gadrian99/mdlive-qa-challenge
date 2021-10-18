@@ -34,7 +34,7 @@ This way I would be able to parse the query parameters for the key and store all
 | https://mdlive-qa-app.herokuapp.com/apps?range.by=id                                                                |
 | https://mdlive-qa-app.herokuapp.com/apps?range.start=5&range.end=28&range.max=25                                    |
 | https://mdlive-qa-app.herokuapp.com/apps?range.by=name&range.order=asc&range.start=my-app-050                       |
-| https://mdlive-qa-app.herokuapp.com/apps?range.by=name&range.order=desc&range.start=my-app-050&range.end=my-app-80 |
+| https://mdlive-qa-app.herokuapp.com/apps?range.by=name&range.start=my-app-001&range.end=my-app-070&range.max=10&range.order=dsc&range.page=5|
 
 | Query Parameters | Type                  | Default                | Description                                                                                                                          |
 | :--------------- | :-------------------- | :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
