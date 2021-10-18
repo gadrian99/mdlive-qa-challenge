@@ -12,11 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash.set": "^4.3.2"
   },
   "devDependencies": {
     "jest": "^27.3.0",
-    "lodash.set": "^4.3.2",
     "nodemon": "^2.0.13",
     "supertest": "^6.1.6"
   },
