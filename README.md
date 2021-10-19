@@ -41,7 +41,7 @@ This way I would be able to parse the query parameters for the key and store all
 | range<i></i>.by  | `String`              | `"id"`                 | Only supports querying by "id" or "name". <p> **NOTE:** _Must use `String` for range.start and range.end when specifying "name"_</p> |
 | range.max        | `Number`              | `50`                   | Maximum number of entries to return.                                                                                                 |
 | range.order      | `String`              | `"asc"`                | Sets Either 'asc' for ascending order or 'desc' for descending order.                                                                |
-| range.start      | `String` or `Integer` | `50` or `"my-app-001"` | Identifier to match the start entry's range<i></i>.by property                                                                       |
+| range.start      | `String` or `Integer` | `1` or `"my-app-001"` | Identifier to match the start entry's range<i></i>.by property                                                                       |
 | range.end        | `String` or `Integer` | `null`                 | Identifier to match the end entry's range<i></i>.by property                                                                         |
 | range.page       | `Integer`             | `1`                    | Identifier to match the current page number                                                                                          |
 
